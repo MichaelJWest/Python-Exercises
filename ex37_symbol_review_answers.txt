@@ -1,0 +1,352 @@
+KEYWORDS
+
+and
+#Called Logical AND operator. If both the operands are true, then the 
+condition becomes true. (a and b) is true.
+
+del
+#You can also delete the reference to a number object by using the del 
+statement. The syntax of the del statement is: del var1[,var2[,var3[....,varN]]]]
+
+from
+#Used to import modules. Eg. from sys import argv.
+
+not
+#Called Logical NOT Operator. Use to reverse the logical state of its operand. 
+If a condition is true, then Logical NOT operator will make it false.
+not(a and b) is false.
+
+while
+#While loops, like the ForLoop, are used for repeating sections of 
+code - but unlike a for loop, the while loop will not run n times, 
+but until a defined condition is met.
+
+as
+#If we want to give a module a different alias.
+
+elif
+#The keyword ‘elif‘ is short for ‘else if’, and is useful to avoid excessive 
+indentation. An if ... elif ... elif ... sequence is a substitute for the switch 
+or case statements found in other languages.
+
+global
+#Access variables defined outside functions
+
+or
+#Called Logical OR Operator. If any of the two operands are non zero, 
+then the condition becomes true. (a or b) is true.
+
+with
+#The ‘with‘ statement clarifies code that previously would use try...finally blocks to ensure 
+that clean-up code is executed.
+
+assert
+#Used for debugging purposes
+
+else
+#If the else statement is used with a for loop, the else 
+statement is executed when the loop has exhausted iterating the list.
+If the else statement is used with a while loop, the else statement 
+is executed when the condition becomes false.
+
+if
+#The if-statement tells your script, "If this boolean expression is True, 
+then run the code under it, otherwise skip it."
+
+pass
+#The pass statement in Python is used when a statement is required 
+syntactically but you do not want any command or code to execute. The pass 
+statement is a null operation; nothing happens when it executes.
+The pass is also useful in places where your code will eventually go, 
+but has not been written yet
+
+yield
+#Used with generators.
+
+break
+#The break statement in Python terminates the current 
+loop and resumes execution at the next statement.
+
+except
+#Catches the exception and executes codes.
+
+import
+#Import other modules into a Python script.
+
+print
+# The print keyword is use to print numbers and characters to the console.
+
+class
+#Used to create new user defined objects.
+
+exec
+#Executes Python code dynamically.
+
+in
+#Evaluates to true if it finds a variable in the specified sequence and 
+false otherwise. x in y, here in results in a 1 if x is a member of sequence y.
+
+not in
+#n	Evaluates to true if it does not finds a variable in the specified 
+sequence and false otherwise. x not in y, here not in results in a 1 if 
+x is not a member of sequence y.
+
+raise
+#Create a user defined exception.
+
+continue
+#The continue statement in Python returns the control 
+to the beginning of the while loop. The continue statement 
+rejects all the remaining statements in the current iteration 
+of the loop and moves the control back to the top of the loop.
+The continue statement can be used in both while and for loops.
+
+finally
+#Is always executed in the end. Used to clean up resources.
+
+is
+#Evaluates to true if the variables on either side of the operator point 
+to the same object and false otherwise. x is y, here is results in 1 if id(x) 
+equals id(y).
+
+is not
+#Evaluates to false if the variables on either side of the operator point 
+to the same object and true otherwise. x is not y, here is not results in 
+1 if id(x) is not equal to id(y).
+
+return
+#exits the function and returns a value.
+
+def
+#used to create a new user defined function.
+
+for
+#Iterate over items of a collection in order that they appear.
+
+lambda
+#creates a new anonymous function.
+
+try
+#specifies exception handlers.
+
+DATA TYPES
+
+True
+#The true value of the bool type.
+
+False
+#The false value of the bool type.
+
+None
+# None is frequently used to represent the absence of a value, 
+as when default arguments are not passed to a function. 
+Assignments to None are illegal and raise a SyntaxError.
+
+strings
+#A set of letters, numbers, or other characters.
+
+integers
+#Whole numbers from negative infinity to infinity, such as 1, 0, -5, etc.
+
+floats
+#Short for "floating point number," any rational number, usually used 
+with decimals such as 2.8 or 3.14159.
+
+lists
+#A list without a fixed number of elements. ie x=[1,2,3] note the square 
+brackets, a list
+
+STRING ESCAPE SEQUENCES
+
+\\
+# Backslash ()
+
+\'
+#Single-quote (')
+
+\"
+#Double-quote (")
+
+\a
+#ASCII bell (BEL)
+
+\b
+#ASCII backspace (BS)
+
+\f
+#ASCII formfeed (FF)
+
+\n
+#ASCII linefeed (LF)
+
+\r
+#Carriage Return (CR)
+
+\t
+#Horizontal Tab (TAB)
+
+\v
+#ASCII vertical tab (VT)
+
+STRING FORMATS
+
+%d
+#decimal integer
+
+%o
+#octal format
+
+%x
+#Hex format. Outputs the number in base 16, using lower- case letters 
+for the digits above 9.
+
+%e
+#Exponent notation. Prints the number in scientific notation using the letter ‘e’ 
+to indicate the exponent. The default precision is 6
+
+%E
+# Exponent notation. Same as 'e' except it uses an upper case ‘E’ 
+as the separator character.
+
+%f
+# Fixed point. Displays the number as a fixed-point number. The default precision 
+is 6.
+
+%F
+# Fixed point. Same as 'f', but converts nan to NAN and inf to INF.
+
+%g
+#General format. For a given precision p >= 1, this round the 
+number to p significant digits and then formats the result in 
+either fixed-point format or in scientific notation, depending on its magnitude.
+
+%G
+#Same as g except switches to E if the number gets too large. The representations 
+of infinity and NaN are upper-cased too.
+
+%c
+# Character. Converts the integer to the corresponding unicode character before 
+printing.
+
+%r
+#Raw format. Use the %r for debugging, since it displays the "raw" data of the variable, 
+but the others are used for displaying to users. It prints it the way you wrote it 
+(or close to it).
+
+%s
+#String format. This is the default type for strings and may be omitted.
+
+%%
+# Percentage. Multiplies the number by 100 and displays in fixed ('f') format, 
+followed by a percent sign.
+
+OPERATORS
+
++
+#Addition - Adds values on either side of the operator
+
+-
+#Subtraction - Subtracts right hand operand from left hand operand
+
+*
+#Multiplication - Multiplies values on either side of the operator
+
+**
+#Exponent - Performs exponential (power) calculation on operators
+
+/
+#Division - Divides left hand operand by right hand operand
+
+//
+#Floor Division - The division of operands where the result is the quotient in 
+which the digits after the decimal point are removed. 9//2 is equal to 
+4 and 9.0//2.0 is equal to 4.0
+
+%
+#Modulus - Divides left hand operand by right hand operand and returns remainder
+
+<
+#Checks if the value of left operand is less than the value of right operand, 
+if yes then condition becomes true.
+
+>
+#	Checks if the value of left operand is greater than the value of right operand, 
+if yes then condition becomes true.
+
+<=
+#Checks if the value of left operand is less than or equal to the value of right operand, 
+if yes then condition becomes true.
+
+>=
+#	Checks if the value of left operand is greater than or equal to the value of right operand, 
+if yes then condition becomes true.
+
+==
+#	Checks if the value of two operands are equal or not, if yes then condition becomes true.
+
+!=
+#	Checks if the value of two operands are equal or not, if values are not equal then 
+condition becomes true.
+
+<>
+#	Checks if the value of two operands are equal or not, if values are not equal then 
+condition becomes true.
+
+()
+#Parentheses for tuples. (Hash-able)
+
+[]
+#Square brackets for lists.
+
+{}
+#Curly braces for dictionaries or sets.
+
+@
+#Used for class, function and method decorators.
+The most common Python decorators you'll run into are:
+@property, @classmethod, @staticmethod
+
+,
+#print i, the comma is to show that the string will be printed on the same line.
+
+:
+#: is the delimiter of the slice syntax to 'slice out' sub-parts in sequences , [start:end]
+used to start the definiton of a function, def function(x):
+
+.
+#Octothorpe/hash/pound for comments
+
+=
+#Simple assignment operator, Assigns values from right side operands to left side operand
+
+;
+#If you want to put several Python statements on the same line, you can use a semi-colon to separate them.
+
++=
+#Add AND assignment operator, It adds right operand to the left operand and assign
+the result to left operand
+
+-=
+#Subtract AND assignment operator, It subtracts right operand from the left operand 
+and assign the result to left operand
+
+*=
+#Multiply AND assignment operator, It multiplies right operand with the left operand 
+and assign the result to left operand
+
+/=
+#Divide AND assignment operator, It divides left operand with the right operand and 
+assign the result to left operand
+
+//=
+#Floor Dividion and assigns a value, Performs floor division on operators and assign
+value to the left operand
+
+%=
+#Modulus AND assignment operator, It takes modulus using two operands and assign the 
+result to left operand
+
+**=
+#Exponent AND assignment operator, Performs exponential (power) calculation on operators 
+and assign value to the left operand
+
